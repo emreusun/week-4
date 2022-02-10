@@ -1,21 +1,20 @@
 <?php
 
-class MainDish extends Food
+class Soup extends MainDish
 {
     /**
      * @var string
      */
-    protected $name = 'main dish';
+    protected $name = 'soup';
 
     /**
-     * A short message about eating this main dish.
+     * A short message about eating this soup.
      *
      * @return string
      */
-
     public function eat(): string
     {
         $parentResult = parent::eat();
-        return $parentResult . " It was filling.";
+        return $parentResult . " It was very tasty.";
     }
 }

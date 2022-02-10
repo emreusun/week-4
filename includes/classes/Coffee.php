@@ -1,14 +1,14 @@
-<?php 
+<?php
 
-class Dessert extends Food
+class Coffee extends Dessert
 {
     /**
      * @var string
      */
-    protected $name = 'dessert';
+    protected $name = 'coffee';
 
     /**
-     * A short message about eating this dessert.
+     * A short message about eating this coffee.
      *
      * @return string
      */

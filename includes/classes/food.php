@@ -13,6 +13,6 @@ class Food
   */
  public function eat (): string
  {
-        return 'you ate the' . $this->name . "!";
+        return " You ate the " . $this->name . "!";
  }
 }
